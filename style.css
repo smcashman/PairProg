@@ -1,0 +1,553 @@
+/****** menubar *********/
+
+#menu {
+	text-transform: uppercase;
+	position:fixed;
+	width:100%;
+	top:0;
+	height: 50px;
+	z-index:2;
+	color:white;
+	background:rgba(37,42,70,0.3);
+
+}
+
+#menubar {
+	text-transform: uppercase;
+	color:white;
+	padding-left: 20px;
+
+}
+#menuburger {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: white;
+	padding-right: 25px;
+	
+	
+}
+
+.burgerwrapper{
+	position:fixed;
+	top:0;
+	right:0;
+	cursor:pointer;
+}
+
+#white{
+	background:white;
+	color: black;
+}
+
+body{
+	background:#2A2F4A;
+	box-sizing:border-box;
+	height:100%;
+	font-size:16px;	
+}
+/********** hero *********/
+.hero {
+	height:400px;
+	position: relative;
+	overflow: hidden;
+	background: #252A46;
+	
+}
+
+.hero:hover {
+	opacity: 1;
+
+}
+
+.hero img{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.2;
+}
+
+#callout {
+	color:white;
+	font-size:3em;
+	border-bottom:3px white solid;
+	margin-left:3em;
+	margin-right:3em;
+	margin-top:3em;
+	position: relative;
+}
+
+
+.getStarted {
+	border: 1px white solid;
+	text-align: center;
+	width:15%;
+	color:white;
+	height:2.5em;
+	max-width:150px;
+	margin:0 auto;
+}
+
+#innerbutton {
+	margin-top:.5em;
+	display: inline-block;
+	 vertical-align: middle; 
+	 line-height: normal;
+	 }
+
+.herofiller {
+	color:white;
+	width:31%;
+	display:inline-block;
+	margin-left:12em;
+	font-size:.70em;
+	text-transform: uppercase;
+	float:left;
+}
+/********* rowowe ******/
+#rowone {
+	width:100%;
+	min-height:300px;
+
+}
+
+#rowone-smallbox {
+	
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0.2;
+    background-image: url('http://static.boredpanda.com/blog/wp-content/uploads/2014/04/funny-derpy-animals-9.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#buttonTwo {
+	border: 1px white solid;
+	text-align: center;
+	width:15%;
+	color:white;
+	height:2.5em;
+	max-width:150px;
+	margin-left:8em;
+}
+
+.smallbox {
+	min-width:40%;
+	max-width:40%;
+	min-height:300px;
+	max-height: 300px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.largebox {
+	
+	min-width:59%;
+	max-width:59%
+	max-height: 300px;
+	min-height:300px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+.first-smallbox{
+	background-color:#7AC0D8;
+
+}
+.first-largebox {
+	background-color:#867BB7;
+}
+
+#rowone-largebox {
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   
+    opacity: 0.2;
+    background-image: url("http://static.boredpanda.com/blog/wp-content/uploads/2014/04/funny-derpy-animals-58.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+html body div#rowone div:hover, html body div#rowtwo div:hover { 
+	background: transparent; 
+}
+html body div#rowone div:hover img, html body div#rowtwo div:hover img {
+	 opacity: 1; 
+	}
+
+/***** row two *******/
+#rowtwo {
+	width:100%;
+	min-height:300px;
+	position: relative;
+	overflow: hidden;
+}
+
+#rowtwo-largebox {
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   
+    opacity: 0.2;
+    background-image: url("https://shechive.files.wordpress.com/2016/01/animals-who-look-like-theyve-had-a-rough-night-24.jpg");
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.second-largebox{
+	background-color: #E59289;
+}
+.second-smallbox{
+	background-color: #DCB48E;
+}
+#rowtwo-smallbox {
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0.2;
+    background-image: url("http://cdn77.sadanduseless.com/wp-content/uploads/2014/04/derpa6.jpg");
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/******* row three *******/
+.third-smallbox {
+	background-color: #869BD2;
+}
+#rowthree-smallbox {
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0.2;
+    background-image: url("http://static.boredpanda.com/blog/wp-content/org_uploads/2014/06/12a__880.jpg");
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.third-largebox {
+	background-color: #7AAF97;
+}
+
+#rowthree-largebox {
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0.2;
+    background-image: url("http://static.boredpanda.com/blog/wp-content/uploads/2015/05/derpy-dog-greyhound-sticking-tongue-zappa-111.jpg");
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+}
+
+/****** infobox *******/
+
+.textFiller{
+	width:100%;
+	min-height:300px;
+	max-height:300px;
+	background:#252A46;
+	display:inline-block;
+	color:white;
+	overflow:hidden;
+}
+
+#title {
+	border-bottom:1px white solid;
+	margin-right:915px;
+	margin-left:5.5em;
+	padding-top:1em;
+	color:white;
+}
+
+#infoFiller {
+	margin-left:8em;
+	color:white;
+}
+
+#message {
+	height:250px;
+	width:600px;
+	margin-top:20px;
+	margin-bottom:30px;
+	margin-left:8em;
+	background-color: #2A2F49;
+	
+}
+
+.messagebox{
+	display:inline;
+	width:66%;
+}
+
+#messages {
+	display:block;
+	text-align: left;
+	margin-bottom:5px;
+	margin-left:8em;
+	margin-top:20px;
+	text-transform: uppercase;
+}
+/******* bottombox *******/
+.bottombox{
+	height:400px;
+	width:100%;
+	box-sizing:border-box;
+	background-color: #242943;
+}
+
+#formWrapper {
+	margin-left:50px;
+	background-color: #242943;
+}
+
+#Email {
+	margin-left:30px;
+	background-color: #2A2F49;
+	width:280px;
+	height:25px;
+}
+
+#sendbutton{
+	display:inline;
+	width:50px;
+	float:left;
+
+}
+
+.whiteButton {
+	border: 1px white solid;
+	text-align: center;
+	width:15%;
+	height:2.5em;
+	max-width:150px;
+	background:white;
+	color:black;
+	margin-left:8em;
+	
+	overflow: hidden;
+}
+
+#clearbutton{
+	display:inline-block;
+	width:15%;
+	float:left;
+	
+	border: 1px white solid;
+	height:2.5em;
+	margin-left:5px;
+	text-align:center;
+
+}
+
+#username {
+	margin-left:5em;
+	background-color: #2A2F49;
+	width:280px;
+	height:25px;
+}
+
+.form {
+	display: inline-block;
+	min-width:66%;
+	background-color: #242943;
+	min-height:650px;
+	color:white;
+}
+
+#emailaddress{
+	width:150px;
+	padding-left:150px;
+	display: inline-block;
+	margin-left:8em;
+	text-transform: uppercase;
+}
+
+input{
+	border:none;
+}
+
+#name {
+	display: inline-block;
+	margin-left:8em;
+	text-transform: uppercase;
+}
+
+/******* contacts *******/
+.contacts {
+	min-width:33%;
+	background:#2A2F49;
+	display:inline-block;
+	vertical-align: top;
+	color:white;
+
+}
+
+#house, #telephone, #envelope {
+	border-radius: 2em;
+	color:black;
+	 width: 30px;
+	 height:15px;
+	 display: inline-block;
+	 margin:20px 5px;
+	 border:1px solid #eaebec;
+	 background-color: white;
+	 padding: 7px 0;
+	 text-align: center;
+}
+
+
+#emailus {
+	height:200px;
+	min-width:100%;
+	background:#242943;
+	margin:5px;
+
+	
+}
+
+#phone{
+	height:200px;
+	min-width:100%;
+	background:#242943;
+	margin:5px;
+	
+}
+
+#address{
+	height:200px;
+	min-width:100%;
+	background:#242943;
+	margin:5px;
+}
+/*****footer ******/
+.footer {
+	width:100%;
+	background:#242943;
+	position: absolute;
+	margin-top:250px;
+	display:inline-block;
+	
+
+}
+.icons {
+	float:left;
+	list-style: none;
+	width:90%;
+}
+
+ul.icons li {
+	border-radius: 2em;
+	 width: 30px;
+	 height:15px;
+	 display: inline-block;
+	 margin:20px 5px;
+	 border:1px solid #eaebec;
+	 background-color: white;
+	 padding: 7px 0;
+	 text-align: center;
+}
+
+#twitter {	
+	
+}
+
+#facebook {
+	
+}
+
+#instagram {
+	
+}
+
+#menuoverlay{
+	display:none;
+	width:100%;
+	height:100%;
+	background:rgba(37,42,70,0.95);
+	position:fixed;
+	top:0;
+	z-index:3;
+}
+
+.closeoverlay{
+	color:white;
+	text-align:right;
+	font-size:2.5em;
+	padding:20px;
+	cursor:pointer;
+}
+
+ul.menuoptions li {
+	text-align: center;
+	margin:0 auto;
+	width:40%;
+	padding:20px;
+	border-bottom:1px solid #CCCCCC;
+	display:block;
+	color:white;
+	font-size: 2.5em;
+	list-style:none;
+}
+
+ul.menuoptions li a{
+	text-decoration:none;
+	color:white;
+}
