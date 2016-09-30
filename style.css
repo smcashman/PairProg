@@ -29,7 +29,7 @@
 
 .burgerwrapper{
 	position:fixed;
-	top:0;
+	top:5px;
 	right:0;
 	cursor:pointer;
 }
@@ -87,6 +87,10 @@ body{
 	height:2.5em;
 	max-width:150px;
 	margin:0 auto;
+}
+
+.getStarted :hover{
+	cursor:pointer;
 }
 
 #innerbutton {
@@ -191,10 +195,10 @@ body{
 
 }
 
-html body div#rowone div:hover, html body div#rowtwo div:hover { 
+html body div#rowone div:hover, html body div#rowtwo div:hover, html body div#rowthree div:hover { 
 	background: transparent; 
 }
-html body div#rowone div:hover img, html body div#rowtwo div:hover img {
+html body div#rowone div:hover img, html body div#rowtwo div:hover img, html body div#rowthree div:hover img, {
 	 opacity: 1; 
 	}
 
@@ -301,8 +305,7 @@ html body div#rowone div:hover img, html body div#rowtwo div:hover img {
 
 .textFiller{
 	width:100%;
-	min-height:300px;
-	max-height:300px;
+	height:300px;
 	background:#252A46;
 	display:inline-block;
 	color:white;
@@ -389,7 +392,6 @@ html body div#rowone div:hover img, html body div#rowtwo div:hover img {
 	display:inline-block;
 	width:15%;
 	float:left;
-	
 	border: 1px white solid;
 	height:2.5em;
 	margin-left:5px;
@@ -505,18 +507,6 @@ ul.icons li {
 	 text-align: center;
 }
 
-#twitter {	
-	
-}
-
-#facebook {
-	
-}
-
-#instagram {
-	
-}
-
 #menuoverlay{
 	display:none;
 	width:100%;
@@ -538,16 +528,48 @@ ul.icons li {
 ul.menuoptions li {
 	text-align: center;
 	margin:0 auto;
-	width:40%;
 	padding:20px;
-	border-bottom:1px solid #CCCCCC;
+	width:20%;
+	border-bottom:1px solid #aeb4d0;
 	display:block;
 	color:white;
-	font-size: 2.5em;
 	list-style:none;
+	margin-left: 8em;
 }
 
 ul.menuoptions li a{
 	text-decoration:none;
 	color:white;
+	text-transform: uppercase;
+}
+
+#overlaylogin {
+	margin: 0 auto;
+	text-align: center;
+	width:100%;
+	display:inline-block;
+	float:left;
+	border: 1px white solid;
+	padding:1em;
+	color:white;
+	margin-top:1em;
+
+}
+
+#overlaybutton {
+	width:100%;
+	margin: 0 auto;
+	text-align:center;
+	display:inline-block;
+	float:left;
+	border: 1px white solid;
+	background:white;
+	padding:1em;
+}
+
+
+.overlaywrapper {
+	width:20%;
+	margin:0 auto;
+	text-align: center;
 }
