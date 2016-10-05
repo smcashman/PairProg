@@ -89,7 +89,7 @@ body{
 	margin:0 auto;
 }
 
-.getStarted :hover{
+.getStarted:hover{
 	cursor:pointer;
 }
 
@@ -144,6 +144,10 @@ body{
 	height:2.5em;
 	max-width:150px;
 	margin-left:8em;
+}
+
+#buttonTwo:hover{
+	cursor: pointer;
 }
 
 .smallbox {
@@ -299,8 +303,6 @@ html body div#rowone div:hover img, html body div#rowtwo div:hover img, html bod
     background-size: cover;
 }
 
-}
-
 /****** infobox *******/
 
 .textFiller{
@@ -335,7 +337,7 @@ html body div#rowone div:hover img, html body div#rowtwo div:hover img, html bod
 	
 }
 
-.messagebox{
+#messagebox{
 	display:inline;
 	width:66%;
 }
@@ -370,33 +372,45 @@ html body div#rowone div:hover img, html body div#rowtwo div:hover img, html bod
 
 #sendbutton{
 	display:inline;
-	width:50px;
-	float:left;
 
+}
+
+.buttonWrap {
+	margin-left:8em;
 }
 
 .whiteButton {
 	border: 1px white solid;
 	text-align: center;
-	width:15%;
+	width:150px;
 	height:2.5em;
-	max-width:150px;
 	background:white;
 	color:black;
-	margin-left:8em;
-	
+	float:left;
 	overflow: hidden;
+	line-height:40px;
 }
 
-#clearbutton{
-	display:inline-block;
-	width:15%;
+.clearAll {
+	margin-left:30px;
+	text-align: center;
+	box-sizing:border-box;
+	height:2.5em;
 	float:left;
 	border: 1px white solid;
 	height:2.5em;
-	margin-left:5px;
 	text-align:center;
+	padding:10px;
+	width:150px;
 
+}
+
+.whiteButton:hover{
+	cursor:pointer;
+}
+
+.clearAll:hover{
+	cursor: pointer;
 }
 
 #username {
@@ -406,12 +420,13 @@ html body div#rowone div:hover img, html body div#rowtwo div:hover img, html bod
 	height:25px;
 }
 
-.form {
+div.form {
 	display: inline-block;
 	min-width:66%;
 	background-color: #242943;
 	min-height:650px;
 	color:white;
+	float:left;
 }
 
 #emailaddress{
@@ -437,9 +452,9 @@ input{
 	min-width:33%;
 	background:#2A2F49;
 	display:inline-block;
+	float:left;
 	vertical-align: top;
 	color:white;
-
 }
 
 #house, #telephone, #envelope {
@@ -460,7 +475,7 @@ input{
 	height:200px;
 	min-width:100%;
 	background:#242943;
-	margin:5px;
+	
 
 	
 }
@@ -469,7 +484,7 @@ input{
 	height:200px;
 	min-width:100%;
 	background:#242943;
-	margin:5px;
+	
 	
 }
 
@@ -477,15 +492,14 @@ input{
 	height:200px;
 	min-width:100%;
 	background:#242943;
-	margin:5px;
+	
 }
 /*****footer ******/
 .footer {
 	width:100%;
 	background:#242943;
-	position: absolute;
-	margin-top:250px;
 	display:inline-block;
+	float:left;
 	
 
 }
@@ -505,6 +519,8 @@ ul.icons li {
 	 background-color: white;
 	 padding: 7px 0;
 	 text-align: center;
+	 text-decoration: none;
+	 color:black;
 }
 
 #menuoverlay{
@@ -515,6 +531,7 @@ ul.icons li {
 	position:fixed;
 	top:0;
 	z-index:3;
+	text-align: center;
 }
 
 .closeoverlay{
